@@ -34,7 +34,7 @@
     
 }
 .btn-info{
-    padding-left: 81%;
+    padding-left: 80%;
     max-width: 160px;
     
 }
@@ -105,6 +105,30 @@ main{
     font-size: 20px;
     font-weight: 500;
     color: #737272;
+}
+/* learning web development styles */
+.learning-info{
+    display: flex;
+
+}
+.learning-way{
+    margin-left: 15px;
+}
+.learn-html-css{
+    display: flex;
+    align-items: center;
+}
+.learn-js{
+    display: flex;
+    align-items: center;
+}
+.learn-js img{
+    width: 370px;
+}
+.Web-Dev{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
 }
 /* gradient container styles */
 .gradient-container{
