@@ -1,10 +1,13 @@
 *{
+    margin: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+/* header and banner and text style */
 .header{
     background-image: url('images/banner/banner3.png');
     background-size: 100% 100%;
     /* padding: 100px; */
+    margin-bottom: 131px;
     
 }
 .banner-info{
@@ -40,4 +43,38 @@
     outline: none;
     border-radius: 5px;
     cursor: pointer;
+}
+main{
+    max-width: 1072px;
+    margin: 0px auto;
+}
+
+/* failure section style */
+.failure-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.failure-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: left;
+    max-width: 300px;
+    margin-bottom: 20px;
+
+}
+.failure-description p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #696565;
+}
+
+.fail-info{
+    display: flex;
+}
+.fa-check{
+    color: green;
+    margin-right: 15px;
 }
