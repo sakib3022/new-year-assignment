@@ -54,6 +54,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 130px;
 }
 .failure-title{
     color: #151414;
@@ -77,4 +78,30 @@ main{
 .fa-check{
     color: green;
     margin-right: 15px;
+}
+.plan-header{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.planning-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+
+    
+}
+.plan-details{
+    text-align: center;
+}
+.plan-details h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-details p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
 }
